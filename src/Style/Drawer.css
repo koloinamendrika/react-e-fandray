@@ -1,0 +1,82 @@
+.gdrawer{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(235, 238, 232);
+}
+#checkbox{
+    
+    width: 208px;
+    height: 29px;
+}
+input:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+input:focus:-moz-placeholder{
+    color: transparent;
+}
+input:focus::-moz-placeholder{
+    color: transparent;
+}
+#checkbox input{
+    outline: none;
+}
+#checkbox input[type = "text"]{
+    background:transparent ;
+    margin: 3px 0px 0px 20px;
+    padding: 5px 0px 5px 0px;
+    border-width: 0.5px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 12px;
+    color:#696868;
+    width: 70%;
+    display: inline-table;
+    vertical-align: top;
+}
+#bouton{
+    background: url("images.png") no-repeat;
+    border-width: 0px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top : 4px;
+    width: 30px;
+    height: 22px;
+}
+#bouton:hover{
+    background: url("images.png") no-repeat ;
+}
+#bouton:active{
+    background: url("images.png") no-repeat ;
+    outline: none;
+}
+#bouton::-moz-focus-inner{
+    border:0;
+}
+.pdputil{
+    background-image: url('img/ensemble-avatars-personnages-multi-ethniques-illustration_181313-86.jpg');
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.pdputil1{
+    background-image: url('img/ensemble-avatars-personnages-multi-ethniques-illustration_181313-86\ -\ Copie\ \(3\).jpg');
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.pdputil2{
+    background-image: url('img/ensemble-avatars-personnages-multi-ethniques-illustration_181313-86\ -\ Copie\ \(2\).jpg');
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.pdputil3{
+    background-image: url('img/ensemble-avatars-personnages-multi-ethniques-illustration_181313-86\ -\ Copie.jpg');
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
